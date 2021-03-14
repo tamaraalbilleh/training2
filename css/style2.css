@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+    height: 100%;
+}
+header {
+    color: #eee;
+    font-size: 24px;
+    background-color: rgba(96, 96, 96,0.6);
+    border-bottom: 2px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+h1 {
+    justify-self: start;
+
+}
+ul li a {
+    display: inline;
+    text-decoration: none;
+    color: #eee;
+
+}
+ul li {
+    margin : 0 5px;
+    display: inline;
+}
+ul {
+    margin-left: 30%;
+}
+main {
+    display: flex;
+    width :90%;
+    justify-content: space-around;
+    
+    margin :0px auto 150px;
+    padding :30px;
+
+}
+section {
+    background-color:rgba(96, 96, 96,0.6) ;
+    padding : 20px 10px;
+    margin :30px 20px;
+}
+label input  {
+    width: 50%;
+}
+label {
+    display: block;
+    width :100%;
+}
+input[type = "submit"] {
+    background-color: #eee;
+    color:rgb(56, 56, 56) ;
+    display: block;
+    margin :auto;
+    width :50%;
+    padding :5px 10px;
+    margin: 10px auto;
+}
+footer {
+    text-align: center;
+    position: -ms-page;
+}
+
+
+td ,th{
+padding: 10px;
+border : 2px solid white ;
+text-align: center
+}
+table tr:nth-last-child(1) {
+    text-align: center;
+    padding:0px auto;
+    margin: 0px auto;
+    width :100%;
+}
