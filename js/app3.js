@@ -78,6 +78,7 @@ function getData (){
 
 function removeItem (i) {
   if (clicked=== true){
+    table.innerHTML = '';
     console.log (i);
     let arr =JSON.parse (localStorage.getItem ('tasks'));
     console.log (arr);
